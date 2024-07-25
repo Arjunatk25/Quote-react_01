@@ -4,7 +4,7 @@ import './Random_Quote.css'
 const Random_Quote = () => {
   let quotes=[];
 async function loadQuote(){
-  const response = await fetch("	https://api.adviceslip.com/advice");
+  const response = await fetch("https://api.adviceslip.com/advice");
   quotes=await response.json();
   const {advice}=quotes.slip;
  console.log(advice);
