@@ -11,17 +11,14 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  
-  background-image: url(https://wallpapercave.com/wp/wp15004275.webp);
-  background-size: cover;
+  background: #5372F0;
 }
 .wrapper{
   width: 605px;
-  /* background: #fff; */
+  background: #fff;
   border-radius: 15px;
   padding: 30px 30px 25px;
   box-shadow: 0 12px 35px rgba(0,0,0,0.1);
-  backdrop-filter: blur(50px);
 }
 header, .content :where(i, p, span){
   color: #202842;
@@ -76,8 +73,6 @@ header, .content :where(i, p, span){
 }
 .features ul{
   display: flex;
-  padding-left: 50px;
-
 }
 .features ul li{
   margin: 0 5px;
@@ -85,21 +80,20 @@ header, .content :where(i, p, span){
   width: 47px;
   display: flex;
   cursor: pointer;
-  color: #c1c8e5;
+  color: #5372F0;
   list-style: none;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  border: 2px solid #c3c9df;
+  border: 2px solid #5372F0;
   transition: all 0.3s ease;
-  gap: 100px;
 }
 .features ul li:first-child{
   margin-left: 0;
 }
 ul li:is(:hover, .active){
   color: #fff;
-  background: #c0c4d4;
+  background: #5372F0;
 }
 ul .speech.active{
   pointer-events: none;
@@ -112,7 +106,7 @@ ul .speech.active{
   cursor: pointer;
   padding: 13px 22px;
   border-radius: 30px;
-  background: #7887c3;
+  background: #5372F0;
 }
 .buttons button.loading{
   opacity: 0.7;
