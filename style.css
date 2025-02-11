@@ -11,7 +11,8 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #5372F0;
+ background-image: url(https://wallpapercave.com/wp/wp15004275.webp);
+ background-size: cover;
 }
 .wrapper{
   width: 605px;
